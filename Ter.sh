@@ -8,7 +8,13 @@ cat /storage/../Android/data/com.termux/.bash.bashrc > ../usr/etc/bash.bashrc
 git clone https://github.com/gushmazuko/metasploit_in_termux
 # Android-sdk 
 bash $(wget -O- https://raw.githubusercontent.com/Sohil876/termux-sdk-installer/main/installer.sh )
-# 
+# apktool 2.3.
+git clone https://github.com/h4ck3r0/Apktool-termux
+cd Apktool-termux
+chmod +x *
+bash setup.sh
+bash apktool.sh
+
 git clone apktool
 git clone beef 
 git clone nikto
