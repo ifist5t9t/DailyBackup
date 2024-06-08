@@ -21,5 +21,5 @@ bash apktool.sh
 cd $HOME
 git clone https://github.com/zaproxy/zaproxy
 # AI Colab not yet ....  
-pip install apkleaks 
+pip install apkleaks apkid
 
