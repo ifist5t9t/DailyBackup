@@ -18,7 +18,7 @@ bash setup.sh
 bash apktool.sh
 # nikto and beef from source better , build your own
 # owasp app 
-cd $HOME
+cd $PREFIX/opt
 git clone https://github.com/zaproxy/zaproxy
 # AI Colab not yet ....  
 pip install apkleaks apkid
