@@ -1,6 +1,8 @@
-#/data/data/com.termux/files/usr/bin/bash -e 
+#!/data/data/com.termux/files/usr/bin/bash -e 
+
+
 apt update ; apt upgrade --assume=yes 
-apt install gradle maven groovy vim gdb wget python git golang python man clamav python                   python-lxml              python-tkinterpython-apsw              python-msgpack           python-tldppython-apt               python-numpy             python-torchpython-bcrypt            python-numpy-static      python-torch-staticpython-contourpy         python-pillow            python-torchaudiopython-cryptography      python-pip               python-torchvisionpython-ensurepip-wheels  python-pyarrow           python-xcbgenpy -y
+apt install nginx gradle maven nodejs groovy vim gdb wget python git golang python man clamav python                   python-lxml              python-tkinterpython-apsw              python-msgpack           python-tldppython-apt               python-numpy             python-torchpython-bcrypt            python-numpy-static      python-torch-staticpython-contourpy         python-pillow            python-torchaudiopython-cryptography      python-pip               python-torchvisionpython-ensurepip-wheels  python-pyarrow           python-xcbgenpy -y
 # fresh
 echo "import random , os ,\n # randomizer task and integrity "
 #cat /storage/../Android/data/com.termux/.bash.bashrc > ../usr/etc/bash.bashrc
@@ -16,6 +18,7 @@ bash setup.sh
 bash apktool.sh
 # nikto and beef from source better , build your own
 # owasp app 
+cd $HOME
 git clone https://github.com/zaproxy/zaproxy
 # AI Colab not yet ....  
 pip install apkleaks 
