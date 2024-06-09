@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash -e 
 
 
-apt update ; apt upgrade --assume=yes 
+apt update ; apt upgrade -y 
 apt install nginx gradle maven nodejs groovy vim gdb wget python git golang python man clamav python     python                   python-pip python-apsw              python-pyarrow python-apt               python-pynvim python-bcrypt            python-sabyenc3 python-contourpy         python-scipy python-cryptography      python-static python-ensurepip-wheels  python-tkinter python-greenlet          python-tldp python-grpcio            python-torch python-lameenc           python-torch-static python-libsass           python-torchaudio python-lxml              python-torchvision python-msgpack           python-xcbgen python-numpy             python-xlib python-numpy-static      python2 python-pillow            python2-static  -y
 # fresh
 echo "import random , os ,\n # randomizer task and integrity "
