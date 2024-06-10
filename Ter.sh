@@ -19,6 +19,10 @@ bash apktool.sh
 echo -e "\e[32m nikto and beef from source better , build your own"
 cd $PREFIX/opt
 git clone https://github.com/sullo/nikto ; ln -rs nikto/program/nikto.pl ../bin/nikto
+echo -e "\e[32m BEef "
+git clone https://github.com/beefproject/beef
+wget   > beef/install 
+cd beef ; ./install 
 echo -e "\e[32m OWASP"
 cd $PREFIX/opt
 git clone https://github.com/zaproxy/zaproxy
